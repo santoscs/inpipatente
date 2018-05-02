@@ -1,0 +1,13 @@
+Package: inpipatente
+Title: Busca Patentes no INPI por CNPJ
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Consulta CNPJ ou CPF na base de patentes do INPI e baixa o data frame correspondente ao resultado da pesquisa.
+Depends: R (>= 3.4.3)
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: RSelenium,
+    rvest,
+    xml2
